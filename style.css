@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  /* background-color: black; */
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  color: white;
+  /* font-family: "Kanit", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+  background: url(./bg-lcc.png) no-repeat center center fixed; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 20px 20px 20px;
+
+}
+
+.captions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+.captions p{
+  font-size: 10px;
+}
+
+span{
+  color: #90e090;
+}
+.inputsHere{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#mainInput{
+  width: 600px;
+  height: 300px;
+  text-align: left;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 20px;
+  outline: none;
+  /* border: 2px rgb(138, 138, 138) solid; */
+  border: none;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.603);
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 13px;
+  font-weight: 500;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.actionBtns{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  text-transform: uppercase;
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 0.404);
+  /* border: 1px rgb(32, 32, 32) solid; */
+  border: none;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: rgb(56, 56, 56);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  transition: all 0.3s;
+}
+
+button:hover{
+  background-color: #90e090d8;
+  filter: drop-shadow(0 -0mm 4mm rgba(255, 255, 255, 0.356));
+  transition: all 0.3s;
+  
+}
+
+/* button:active{
+  background-color: #90e090d8;
+  filter: drop-shadow(0 -0mm 4mm rgba(255, 255, 255, 0.356));
+  transition: all 0.3s;
+} */
+
+
+.outpustHere{
+  width: 560px;
+  height: 300px;
+  border: 2px rgb(0, 0, 0) solid;
+  padding: 20px 20px 20px 20px;
+  background-color: rgba(255, 255, 255, 0.603);
+  color: black;
+  font-size: 12px;
+  border-radius: 10px ;
+  /* border: 2px rgb(138, 138, 138) solid; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .main{
+    margin-top: 100px;
+    gap: 40px;
+  }
+
+  .captions{
+    font-size: 10px;
+  }
+  
+  #mainInput{
+    width: 330px;
+    height: 200px;
+    font-size: 10px;
+
+  }
+
+  .outpustHere{
+    width: 300px;
+    height: 200px;
+    font-size: 10px;
+  }
+  button{
+    width: 60px;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 7px;
+  }
+
+  .inputsHere{
+    gap: 40px;
+  }
+}
