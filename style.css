@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 body{
@@ -118,6 +119,28 @@ button:hover{
   border: none;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   overflow: scroll;
+}
+
+img{
+  height: 25px;
+  opacity: 0.2;
+  transition: all 0.3s;
+}
+
+img:hover{
+  height: 25px;
+  opacity: 1;
+  filter: drop-shadow(0 0 0.75rem #90e090d8);
+  transition: all 0.3s;
+}
+
+
+
+footer{
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 
