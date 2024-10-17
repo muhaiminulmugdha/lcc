@@ -136,11 +136,23 @@ img:hover{
 
 
 
-footer{
+.images{
   display: flex;
   gap: 10px;
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+}
+
+footer p{
+  margin-bottom: 20px;
+  font-size: 8px;
+  opacity: 0.3;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
